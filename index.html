@@ -1,74 +1,114 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Xolile Radebe</title>
-  
-  <link rel="stylesheet" type="text/css" href="style.css"/>
-  <script src="./Untitled-1.js"></script>
+    <!-- === Meta Tags === -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Added initial-scale -->
+    <title>Devdesignx | Xolile Radebe</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-  <div class="toppage">
-     <nav class="sidebar">
-        <div class="sidebar-inner">
-          <header class="sidebar-header">
-            <button
-            type="button"
-            class="sidebar-burger"
-            onclick="toggleSidebar()"
-            ></button>
-            <img src="./Asserts/logo.svg" class="sidebar-logo" />
-        </header>
-        <nav class="sidebar-menu">
-          <button type="button">
-            <img src="./Asserts/icons8-home-page-30.png" />
-            <span>Home</span>
-          </button>
-          <button type="button" class="has-border">
-            <img src="./Asserts/icons8-account-50.png" />
-            <span>About Me</span>
-          </button>
-          <button type="button">
-            <img src="./Asserts/icons8-set-as-resume-50.png" />
-            <span>Resume</span>
-          </button>
-          <button type="button">
-            <img src="./Asserts/icons8-portfolio-50.png" />
-            <span>Portfolio</span>
-          </button>
-          <button type="button">
-            <img src="./Asserts/icons8-projects-58.png" />
-            <span>Projects</span>
-          </button>
-          <button type="button">
-            <img src="./Asserts/icons8-price-tag-50.png" />
-            <span>Price Table</span>
-          </button>
-          <button type="button" class="has-border">
-            <img src="./Asserts/icons8-client-60.png" />
-            <span>Clients</span>
-          </button>
-          <button type="button">
-            <img src="./Asserts/icons8-profile-60.png">
-            <span>Contact</span>
-          </button>
-          </header>
-        </div>   
+    <div class="contain">
+        <nav>
+            <div class="space">
+                <h1>Ally</h1>
+            </div>
 
-      </nav>
-      
+            <div class="links" id="clickActive">
+                <a href="#Home" class="live">Home</a>
+                <a href="#AboutMe" class="live">About Me</a>
+                <a href="#Resume" class="live">Resume</a>
+                <a href="#Portfolio" class="live">Portfolio</a>
+                <a href="#Contact" class="live">Contact</a>
+            </div>
+
+            <div class="space"></div>
+        </nav>
     </div>
-  </div>
 
- <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <!-- <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> --> 
+    <main>
+        <section id="Home" class="home">
+            <div class="mainHomeContent">
+                <div class="service">
+                    <h6><span>-</span><b>Hello</b> <span>I'm</span></h6>
+                    <h2><span>WEB</span></h2>
+                    <h4>DESIGNER</h4>
+                    <h4>DEVELOPER</h4>
+                </div>
+                <div class="service-img">
+                    <img src="./asserts/avataaars.svg">
+                </div>
+            </div>
+            <div class="homeCount">
+                <p>12 projects</p>
+                <p>45 clients</p>
+            </div>
+        </section>
+
+        <section id="AboutMe" class="aboutMe">
+
+            <div class="profile-description">
+                <h2>About Me</h2>
+                <!-- Add content for the About Me section -->
+            </div>
+
+            <div class="about-content">
+                <div class="profile">
+                    <img class="card" src="./asserts/28d6f3ab-7558-4829-9b86-819f793b18e1.jpg">
+
+                    <div class="profile-card">
+                        <div class="progress-ring">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none">
+                                <path d="M100 5C100 2.23858 102.24 -0.0130395 104.998 0.124949C124.35 1.09318 143.045 7.66709 158.779 19.0983C175.863 31.5111 188.58 49.014 195.106 69.0983C201.631 89.1826 201.631 110.817 195.106 130.902C188.58 150.986 175.863 168.489 158.779 180.902C141.694 193.315 121.118 200 100 200C78.8821 200 58.3062 193.314 41.2215 180.902C24.1367 168.489 11.4201 150.986 4.89434 130.902C-1.1154 112.406 -1.59064 92.5946 3.46862 73.8906C4.18965 71.225 7.02337 69.79 9.64964 70.6434C12.2759 71.4967 13.6988 74.3148 12.9926 76.9844C8.57705 93.6759 9.04783 111.324 14.4049 127.812C20.2781 145.887 31.723 161.64 47.0993 172.812C62.4756 183.983 80.9939 190 100 190C119.006 190 137.524 183.983 152.901 172.812C168.277 161.64 179.722 145.887 185.595 127.812C191.468 109.736 191.468 90.2644 185.595 72.1885C179.722 54.1126 168.277 38.36 152.901 27.1885C138.876 16.9987 122.237 11.0974 104.998 10.1388C102.241 9.98551 100 7.76142 100 5Z" fill="#3EBDED"/>
+                            </svg>
+                            <img src="./asserts/avataaars.svg" alt="Image" class="center-image">
+                        </div>
+
+                        <div class="profile-name">
+                            <p>Xolile Radebe</p>
+                            <p><span>intermediate</span></p>
+                        </div>
+
+                        <div class="profile-content">
+                            <div class="age">
+                                <img src="./asserts/Age.svg" alt="">
+                                <p>21yrs</p>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="customer-insight">
+                                <img src="./asserts/Customer Insight.svg" alt="">
+                                <p>5yrs</p>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="development-skill">
+                                <img src="./asserts/Development Skill.svg" alt="">
+                                <p>3yrs</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="history">
+                    <p>I am an enthusiastic, self-motivated, reliable, responsible and hard working person. A mature team worker and adaptable to all challenging situations. I am able to handle multiple tasks on a daily basis. I am always energetic and eager to learn new skills.</p>
+                </div>
+            </div>
+           
+        </section>
+
+        <section id="Resume" class="Resume">
+            <!-- Add content for the Resume section -->
+        </section>
+
+        <section id="Portfolio" class="Portfolio">
+            <!-- Add content for the Portfolio section -->
+        </section>
+
+        <section id="Contact" class="Contact">
+            <!-- Add content for the Contact section -->
+        </section>
+    </main>
+
+    <script src="./app.js"></script> <!-- Check the filename and extension -->
+
 </body>
-
 </html>
